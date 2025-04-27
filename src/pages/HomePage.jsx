@@ -5,7 +5,7 @@ const HomePage = () => {
         <>
             <h1 className="text-[30px]">This is home page</h1>
             <div>
-                <div>
+                <div className="text-blue-500">
                     <Link to={`/addadmin`}>Add New Admin</Link> 
                 </div>
             </div>
