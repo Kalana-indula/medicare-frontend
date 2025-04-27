@@ -25,12 +25,16 @@ const AddAdmin = () => {
         setPassword(event.target.value);
     }
 
+    const handleSubmit=()=>{
+        
+    }
+
     return (
         <>
             <h1>Add admin</h1>
 
             <div>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="flex flex-col ml-[20px] mt-[10px] mb-[10px] w-[400px]">
                         {/* styles are created using an external component */}
                         <Input type="text" placeholder="First Name" onChange={handleFirstName} />
