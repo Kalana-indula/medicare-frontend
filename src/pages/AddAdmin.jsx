@@ -55,10 +55,11 @@ const AddAdmin = () => {
         }
     }
 
+
     const handleCancel = (event) => {
         event.preventDefault();
 
-        console.log("cancel button clicked");
+        //clear the fields
         setFirstName("");
         setLastName("");
         setEmail("");
